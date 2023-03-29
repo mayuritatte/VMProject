@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4595" started-at="2023-03-23T23:14:45 PDT" finished-at="2023-03-23T23:14:50 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4595" started-at="2023-03-23T23:14:45 PDT" finished-at="2023-03-23T23:14:50 PDT">
+      <class name="com.ibm.fst.APIProject.APITest">
+        <test-method status="PASS" signature="verifyListUserTest()[pri:0, instance:com.ibm.fst.APIProject.APITest@1efbd816]" name="verifyListUserTest" duration-ms="172" started-at="2023-03-23T23:14:48 PDT" finished-at="2023-03-23T23:14:48 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListUserTest -->
+      </class> <!-- com.ibm.fst.APIProject.APITest -->
+      <class name="com.ibm.fst.APIProject.GetAPITestWithGiven">
+        <test-method status="PASS" signature="verifyCityWeather()[pri:0, instance:com.ibm.fst.APIProject.GetAPITestWithGiven@3c756e4d]" name="verifyCityWeather" duration-ms="140" started-at="2023-03-23T23:14:50 PDT" finished-at="2023-03-23T23:14:50 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityWeather -->
+      </class> <!-- com.ibm.fst.APIProject.GetAPITestWithGiven -->
+      <class name="com.ibm.fst.APIProject.RestAssuredExample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ibm.fst.APIProject.RestAssuredExample@66d2e7d9]" name="setup" is-config="true" duration-ms="2324" started-at="2023-03-23T23:14:46 PDT" finished-at="2023-03-23T23:14:48 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.ibm.fst.APIProject.RestAssuredExample@66d2e7d9]" name="verifyStatusLine" duration-ms="0" started-at="2023-03-23T23:14:49 PDT" finished-at="2023-03-23T23:14:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="verifyContentType()[pri:0, instance:com.ibm.fst.APIProject.RestAssuredExample@66d2e7d9]" name="verifyContentType" duration-ms="0" started-at="2023-03-23T23:14:49 PDT" finished-at="2023-03-23T23:14:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentType -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.ibm.fst.APIProject.RestAssuredExample@66d2e7d9]" name="verifyStatusCode" duration-ms="0" started-at="2023-03-23T23:14:49 PDT" finished-at="2023-03-23T23:14:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+      </class> <!-- com.ibm.fst.APIProject.RestAssuredExample -->
+      <class name="com.ibm.fst.APIProject.CreateUserAPIWithDDT">
+        <test-method status="PASS" signature="verifyCreateUserTest(java.lang.String, java.lang.String)[pri:0, instance:com.ibm.fst.APIProject.CreateUserAPIWithDDT@4de8b406]" name="verifyCreateUserTest" duration-ms="484" started-at="2023-03-23T23:14:49 PDT" data-provider="sampleData" finished-at="2023-03-23T23:14:49 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Athar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserTest -->
+        <test-method status="PASS" signature="verifyCreateUserTest(java.lang.String, java.lang.String)[pri:0, instance:com.ibm.fst.APIProject.CreateUserAPIWithDDT@4de8b406]" name="verifyCreateUserTest" duration-ms="476" started-at="2023-03-23T23:14:49 PDT" data-provider="sampleData" finished-at="2023-03-23T23:14:49 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayuri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sr. leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserTest -->
+        <test-method status="PASS" signature="verifyCreateUserTest(java.lang.String, java.lang.String)[pri:0, instance:com.ibm.fst.APIProject.CreateUserAPIWithDDT@4de8b406]" name="verifyCreateUserTest" duration-ms="437" started-at="2023-03-23T23:14:49 PDT" data-provider="sampleData" finished-at="2023-03-23T23:14:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reenu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sr. leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserTest -->
+      </class> <!-- com.ibm.fst.APIProject.CreateUserAPIWithDDT -->
+      <class name="com.ibm.fst.APIProject.CreateUserAPI">
+        <test-method status="PASS" signature="verifyCreateUserTest()[pri:0, instance:com.ibm.fst.APIProject.CreateUserAPI@6a2bcfcb]" name="verifyCreateUserTest" duration-ms="500" started-at="2023-03-23T23:14:48 PDT" finished-at="2023-03-23T23:14:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserTest -->
+      </class> <!-- com.ibm.fst.APIProject.CreateUserAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

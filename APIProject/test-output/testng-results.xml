@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3528" started-at="2023-03-23T06:58:33Z" finished-at="2023-03-23T06:58:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3528" started-at="2023-03-23T06:58:33Z" finished-at="2023-03-23T06:58:36Z">
+      <class name="weatherAPI.WeatherAPIWithStaticImport">
+        <test-method status="PASS" signature="verifyCityWeather()[pri:0, instance:weatherAPI.WeatherAPIWithStaticImport@5034c75a]" name="verifyCityWeather" duration-ms="3511" started-at="2023-03-22T23:58:33Z" finished-at="2023-03-22T23:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityWeather -->
+      </class> <!-- weatherAPI.WeatherAPIWithStaticImport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
